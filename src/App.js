@@ -84,12 +84,12 @@ const App = () => {
                     {genres.map((item, index) => {
                         return <div className='info-section' key={index}>
                             <div className='header'>Genre ({item})</div>
-                            <div className='d-flex overflow-scroll'>
+                            <div className='d-flex flex-props'>
                                 {movies.map((data, key) => {
                                     if (data?.genres?.includes(item)) {
                                         return <div className='box-wrapper' onClick={() => handleSelectMovie(data)} key={key}>
                                             <div className='box' style={{ backgroundImage: `url(${data.backdrop})` }}></div>
-                                            <div>
+                                            <div className='box-content'>
                                                 <div>{data.title} <span>({data.classification})</span></div>
                                                 <div>IMDB - {data.imdb_rating}</div>
                                             </div>

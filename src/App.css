@@ -49,14 +49,12 @@
   cursor: pointer;
 }
 .info-section .box {
-  height: 8rem;
-  width: 15rem;
+  height: 10rem;
+  width: 18rem;
+  max-width: 20rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.info-section .box-wrapper:not(:first-child) { 
-  margin-left: 1.5rem;
 }
 .modal-wrapper:not(:first-child) {
   margin-top: 1rem;
@@ -70,4 +68,12 @@
   background-color: moccasin;
   padding: 1rem;
   border-radius: 40px;
+}
+.flex-props {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 15px 27px;
+}
+.box-wrapper .box-content {
+  padding: 0 10px;
 }
