@@ -91,7 +91,7 @@ const App = () => {
                                             <div className='box' style={{ backgroundImage: `url(${data.backdrop})` }}></div>
                                             <div className='box-content'>
                                                 <div>{data.title} <span>({data.classification})</span></div>
-                                                <div>IMDB - {data.imdb_rating}</div>
+                                                <div className='imdb-area'>IMDB - {data.imdb_rating}</div>
                                             </div>
                                         </div>
                                     } else {

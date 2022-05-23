@@ -34,7 +34,7 @@
   height: 25px;
 }
 .header-section .search-icon {
-  width: 40px;
+  width: 27px;
   margin-right: 12px;
 }
 .info-section {
@@ -75,5 +75,11 @@
   gap: 15px 27px;
 }
 .box-wrapper .box-content {
-  padding: 0 10px;
+  padding: 0 10px 8px 10px;
+}
+.box-wrapper .box-content .imdb-area {
+  width: 6rem;
+  background-color: cornsilk;
+  border-radius: 10px;
+  text-align: center;
 }
