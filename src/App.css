@@ -1,0 +1,73 @@
+.title-bar {
+  height: 3rem;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+}
+
+.title-bar .dot {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+.title-bar .dot.red {
+  background-color: red;
+}
+.title-bar .dot.yellow {
+  background-color: orange;
+}
+.title-bar .dot.green {
+  background-color: lightgreen;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000000;
+  padding: 1rem;
+  font-size: 30px;
+  font-weight: 400;
+}
+.header-section .ant-input {
+  font-size: 14px !important;
+  height: 25px;
+}
+.header-section .search-icon {
+  width: 40px;
+  margin-right: 12px;
+}
+.info-section {
+  padding: 2rem 1rem;
+}
+.info-section .header {
+  font-size: 22px;
+}
+.info-section .box-wrapper {
+  border: 2px solid #808080;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.info-section .box {
+  height: 8rem;
+  width: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info-section .box-wrapper:not(:first-child) { 
+  margin-left: 1.5rem;
+}
+.modal-wrapper:not(:first-child) {
+  margin-top: 1rem;
+} 
+.modal-wrapper .poster-image {
+  width: 15rem;
+  height: 25rem;
+} 
+.popup-contents {
+  margin-top: 10px;
+  background-color: moccasin;
+  padding: 1rem;
+  border-radius: 40px;
+}
